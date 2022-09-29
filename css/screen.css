@@ -829,6 +829,22 @@ input::placeholder {
     padding-top: 13px;
     border-top: var(--global-borderWidth) solid var(--global-input-borderColor);
 }
+
+/* Custom Select */
+.c-input{
+ appearance: none;
+}
+.c-custom-select{
+    display: block;
+    position: relative;
+}
+.c-custom-select__symbol{
+    width: 1.5rem;
+    height: 1.5rem;
+    position: absolute;
+    right: 0;
+    pointer-events: none;
+}
 /*------------------------------------*\
 #UTILITIES
 \*------------------------------------*/
